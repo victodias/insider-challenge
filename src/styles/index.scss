@@ -1,0 +1,40 @@
+@import "./config/variables";
+@import "./header";
+@import "./products";
+@import "./cart";
+
+@font-face {
+  font-family: 'Arimo', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;1,700&family=Inter:wght@700;900&display=swap");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arimo', sans-serif;
+}
+
+.container {
+  border: 1px solid;
+  margin: 0 auto;
+  max-width: $breakpoint-large;
+  padding-left: 36px;
+  padding-right: 36px;
+  width: 100%;
+
+  @media screen and (max-width: $breakpoint-small) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  @media screen and (max-width: $breakpoint-medium) {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.main-section {
+  border: 1px solid blue;
+  display: flex;
+}

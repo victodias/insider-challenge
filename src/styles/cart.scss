@@ -1,0 +1,23 @@
+.cart {
+  border: 1px solid red;
+  max-width: 350px;
+  padding: 24px 36px;
+  width: 100%;
+}
+
+.cart-list {
+  list-style: none;
+}
+
+.cart-list-item {
+  .title {
+    color: red;
+  }
+}
+
+.empty-cart {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  text-align: center;
+}
